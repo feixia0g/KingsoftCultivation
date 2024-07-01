@@ -1,0 +1,13 @@
+.markdown-wrapper {
+  padding: 14px;
+}
+
+.markdown-card-wrapper {
+  display: flex;
+}
+
+.markdown-card-content {
+  flex: 1;
+  padding: 15px;
+  margin-left: 25px;
+}

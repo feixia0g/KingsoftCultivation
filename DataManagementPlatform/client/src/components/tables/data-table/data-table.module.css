@@ -1,0 +1,40 @@
+.data-table-wrapper {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.data-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-card {
+  margin-bottom: 10px;
+}
+
+.filter-bar {
+  display: flex; /* 启用Flexbox */
+  align-items: center; /* 垂直居中子元素 */
+  gap: 25px; /* 在子元素之间添加一些间隔 */
+}
+
+.filter-bar-item {
+  display: flex; /* 启用Flexbox */
+  align-items: center; /* 垂直居中子元素 */
+  gap: 10px;
+}
+
+.add-data {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+
+.action-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.table-skeleton {
+  margin-top: 45px;
+}

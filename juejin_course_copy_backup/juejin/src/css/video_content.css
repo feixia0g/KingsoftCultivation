@@ -1,0 +1,128 @@
+.video-filter-content-a {
+  position: relative;
+  display: flex;
+  padding: 14px 20px;
+  background-color: var(--juejin-layer-1);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.poster {
+  width: 226px;
+  height: 128px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-right: 16px;
+  background-color: var(--juejin-layer-loading-end);
+  border: 1px solid var(--juejin-gray-1-2);
+}
+
+.video-thumb {
+  height: 100%;
+  width: 100%;
+}
+
+.lazy {
+  position: relative;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.info{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.info .info-top{
+    overflow: hidden;
+    width: 100%;
+}
+
+.byte-video-item .info .title-box{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--juejin-font-1);
+}
+
+.info .tag{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: default;
+    margin-right: 3px;
+    transform: translateY(-3px);
+}
+
+.vip-free-tag{
+    background: linear-gradient(90deg, #fde8c3, #edd3a7);
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    color: #7e5d25;
+    white-space: nowrap;
+}
+
+.info .video-desc{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    margin-top: 6px;
+    line-height: 22px;
+    color: var(--juejin-font-2);
+    font-size: 14px;
+}
+
+.source-wrap{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: var(--juejin-font-2);
+    height: 26px;
+    margin-top: 6px;
+}
+
+.source-wrap .icon-bytetech{
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+}
+
+.video-count-duration-wrap{
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--juejin-font-2);
+    margin-top: 16px;
+}
+
+.video-count-duration-wrap .video-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 1px;
+    vertical-align: middle;
+    transform: translateY(-2px);
+    fill: none;
+}
+
+.video-count-duration-wrap .video-icon path:first-child {
+    stroke: var(--juejin-font-2);
+}
+
+.video-count-duration-wrap .video-icon rect {
+    stroke: var(--juejin-font-2);
+}
+
+.video-count-duration-wrap .video-icon path:last-child {
+    fill: var(--juejin-font-2);
+}

@@ -1,0 +1,22 @@
+.label-table-wrapper {
+  display: flex;
+}
+
+.label-table {
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-grow: 1;
+}
+
+.add-label {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+
+  margin-bottom: 20px;
+}
+
+.action-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}

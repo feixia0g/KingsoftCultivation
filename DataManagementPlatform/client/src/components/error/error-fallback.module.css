@@ -1,0 +1,6 @@
+.error-fallback-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 100vh; /* 使容器高度占满视口高度 */
+}

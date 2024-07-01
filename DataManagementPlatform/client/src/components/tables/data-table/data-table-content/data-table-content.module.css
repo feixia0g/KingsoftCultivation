@@ -1,0 +1,14 @@
+.add-data {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+
+.action-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.table-skeleton {
+  margin-top: 45px;
+}

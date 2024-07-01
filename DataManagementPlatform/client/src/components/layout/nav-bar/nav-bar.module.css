@@ -1,0 +1,49 @@
+.nav-bar {
+  color: white;
+  font-size: 20px;
+  /* text-align: left; */
+  display: flex; /* 启用Flexbox */
+  justify-content: space-between; /* 子元素两端对齐 */
+  align-items: center; /* 垂直居中 */
+  /* background-color: #000; */
+}
+
+.left-content {
+  flex: 1; /* 左侧内容占据剩余空间 */
+}
+
+.right-content {
+  display: flex; /* 右侧内容使用 flex 布局 */
+  align-items: center; /* 垂直居中 */
+  gap: 10px;
+}
+
+.setting-btn {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.setting-switch {
+  width: 70px;
+}
+
+.header-divider {
+  border: none; /* 移除默认的边框 */
+  height: 1px; /* 线条的高度 */
+  margin: 0; /* 根据需要调整顶部和底部的间距 */
+}
+
+.mode-icon {
+  border-radius: 80%;
+}
+
+.mode-icon:hover {
+  background-color: #ebedf0;
+}

@@ -1,0 +1,15 @@
+.filter-card {
+  margin-bottom: 10px;
+}
+
+.filter-bar {
+  display: flex; /* 启用Flexbox */
+  align-items: center; /* 垂直居中子元素 */
+  gap: 25px; /* 在子元素之间添加一些间隔 */
+}
+
+.filter-bar-item {
+  display: flex; /* 启用Flexbox */
+  align-items: center; /* 垂直居中子元素 */
+  gap: 10px;
+}

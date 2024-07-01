@@ -1,0 +1,43 @@
+@keyframes loadingAnimation {
+  0% {
+    background-color: #f2f2f2;
+  } /* 初始灰色 */
+  20% {
+    background-color: #e0e0e0;
+  } /* 渐变到稍亮 */
+  40% {
+    background-color: #f2f2f2;
+  } /* 再次回到灰色 */
+  /* 继续添加更多关键帧，可以根据需要调整颜色和时间 */
+}
+
+.loading {
+  content: ''; /* 必须设置内容为空 */
+  display: block;
+  height: 15px; /* 每一行的高度 */
+  background-color: #f2f2f2; /* 初始灰色 */
+  animation: loadingAnimation 2s infinite; /* 持续时间2秒，无限循环 */
+
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.loadLine1 {
+  width: 40%;
+}
+
+.loadLine2 {
+  width: 95%;
+}
+
+.loadLine3 {
+  width: 80%;
+}
+
+.loadLine4 {
+  width: 60%;
+}
+
+.loading-div {
+  margin-top: 25px;
+}
